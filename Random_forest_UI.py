@@ -9,7 +9,7 @@ scaler = joblib.load("scaler_rf.pkl")
 
 # Title
 st.title("❤️ Heart Disease Prediction")
-st.write("This app uses a trained Random Forest model to predict heart disease.")
+st.write("Random Forest model to predict heart disease.")
 
 # Sidebar: User Input or File Upload
 st.sidebar.header("Choose Input Method")
